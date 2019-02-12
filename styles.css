@@ -1,0 +1,68 @@
+.jumbotron {
+  text-align: center;
+  background-image: url("../coding.jpg");
+  color: antiquewhite;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+
+.zain {
+  width: 350px;
+  height: 350px;
+}
+
+.carousel-inner > .carousel-item > img {
+  width: 640px;
+  height: 360px;
+}
+
+.col-12 {
+  text-align: center;
+}
+
+p {
+  line-height: 2;
+}
+
+.footer {
+  text-align: center;
+  background-color: lightskyblue;
+  height: 100px;
+  clear: both;
+}
+/* clear both clears the div/float element */
+
+.button {
+  background-color: mediumpurple;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+/*When Button is clicked on it will turn blue */
+
+.button:active {
+  background-color: blue;
+}
+
+.footer-col-sm-12 {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content: space-around;
+}
